@@ -9,3 +9,11 @@ if not ((magic_charge >= 90) and (shield_charge >= 75)):
 else:
 	print ("You defeated the dragon! But the princess is in another castle.")
 """
+a= input("magic_charge")
+a= int (a)
+b= input ("sheild_charge") 
+b=int (b)
+if (a >= 90 and b >=75):
+	print ("you defeated the dragon! but the princees is in another castle.")
+else:
+	print ("The dragon burns you to a crisp.")  
